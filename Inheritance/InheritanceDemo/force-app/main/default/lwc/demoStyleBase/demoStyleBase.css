@@ -1,0 +1,12 @@
+/** This LWC component only consists of a CSS file and a metadata file. 
+* If you add a HTML and Javascript file then inheritance will fail and nothing will render.
+*/
+
+/** Right Triangle shape*/
+.shape {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(71, 44, 192);
+	border-bottom: 25px solid transparent;
+}

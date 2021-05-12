@@ -1,0 +1,96 @@
+<!--Harness is just for overall demonstration. Can be embedded in a Salesforce page.-->
+<template>
+
+    <div class="slds-text-heading_large">Simple Javascript Inheritance in Salesforce LWC</div>
+
+    <br>
+
+    <div class="slds-grid">
+
+        <lightning-icon icon-name="utility:warning" alternative-text="Info" title="Info"></lightning-icon>
+        <div class="slds-text-heading_small"><i>Click on a shape to invoke parent component Javascript function</i></div>
+
+    </div>
+
+    <br>
+
+    <!--Headers for each section-->
+    <div class="slds-grid demoGrid">
+
+        <div class="slds-col slds-size_1-of-3 slds-text-heading_small header">
+
+            <span>Parent Component</span>
+            
+        </div>
+
+        <div class="slds-col slds-size_1-of-3 slds-size_1-of-3 slds-text-heading_small header">
+
+            Child Components
+        </div>
+
+        <div class="slds-col slds-size_1-of-3 slds-size_1-of-3 slds-text-heading_small header">
+
+            Messages from events
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="slds-grid">
+
+        <div class="slds-col slds-size_1-of-3">
+
+            <div class="demoComponent">
+
+                <!--The base component rendered as-is-->
+                <c-demo-button-base onbuttonclicked={onchange}></c-demo-button-base>
+    
+            </div>
+
+        </div>
+
+        <div class="slds-col slds-size_1-of-3">
+
+            <div class="demoComponent">
+
+                <!--The circle component - not it specifies the event raised by the inherited component -->
+                <c-demo-button-circle onbuttonclicked={onchange}></c-demo-button-circle>
+        
+            </div>
+            <br>
+        
+            <div class="demoComponent">
+        
+                <!--The triangle component - not it specifies the event raised by the inherited component -->
+                <c-demo-button-triangle onbuttonclicked={onchange}></c-demo-button-triangle>
+            
+            </div>
+            
+        </div>
+
+        <div class="slds-col slds-size_1-of-3 slds-text-color_success slds-text-heading_small">
+
+            <!--The message from each individual component when clicked on-->
+            {message} 
+            
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="slds-text-heading_large">Simple CSS Inheritance in Salesforce LWC</div>
+
+    <br>
+        <div class="demoComponent">
+
+            <!--An example of a simple component that inherits CSS from another component. 
+                This is actually more of an import than true inheritance. -->
+            <c-demo-style-component></c-demo-style-component>
+
+        </div>
+    <br>
+
+</template>

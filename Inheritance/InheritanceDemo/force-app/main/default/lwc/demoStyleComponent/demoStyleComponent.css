@@ -1,0 +1,12 @@
+/** We can import a LWC component which ONLY consists of a CSS and metadata file. 
+* We CAN NOT import the CSS of a full LWC control this way. */
+@import 'c/demoStyleBase';
+
+.demoComponent {
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-style: dashed;
+    border-width: thin;
+}

@@ -1,0 +1,7 @@
+/* Make shape a circle */
+.shape {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(223, 142, 50);
+    border-radius: 50%;
+}

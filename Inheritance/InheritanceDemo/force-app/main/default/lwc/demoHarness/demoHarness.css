@@ -1,0 +1,20 @@
+.demoComponent {
+    width: 105px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-style: dashed;
+    border-width: thin;
+}
+
+.header {
+    margin: 10px;
+}
+
+.title {
+    width: 100px;
+}
+
+.demoGrid {
+    width: 500px;
+}
