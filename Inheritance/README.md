@@ -8,3 +8,10 @@ If you are creating multiple components with shared Javascript and/or CSS, you c
 I suggest running the demoHarness (c-demo-harness) control in a Local Development Server in order that you can change and experiment. You could put this same harness control into a Salesforce org as well if you wanted though.
 <br>
 <img src="https://github.com/andrewwhitten/Salesforce-LWC-Snippets/blob/main/Inheritance/Components.png" width="600"></img>
+
+# Notes
+
+* Composition: https://developer.salesforce.com/docs/component-library/documentation/en/lwc/create_components_compose_intro
+* Share Javascript code: https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.js_share_code
+* Additional Javascript Files for Sharing Code: https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_components_javascript_share
+* Inheritance in LWC (aeticle by Dhanik Lal Sahni): https://salesforcecodex.com/salesforce/inheritance-in-lightning-web-component/
